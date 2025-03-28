@@ -1,28 +1,3 @@
----
-title: 实验 | 使用Stanford Glove代码训练中文语料的Glove模型
-author: 大邓
-date: '2025-03-28'
-slug: []
-categories: []
-tags:
-  - 数据集
-  - 文本分析
-  - 词嵌入
-  - 语言模型
-cover:
-  image: images/blog/stanford-geometry.png
-description:  
-keywords:
-  - 数据集
-  - 文本分析
-  - 词嵌入
-  - 语言模型
-  - GloVe
-  - StanfordNLP
-  - Stanford GloVe
-draft: no
-type: post
----
 
 
 ## 一、简介
