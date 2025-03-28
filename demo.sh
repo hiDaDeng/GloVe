@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
+make
+
 
 #设置语料数据文件
 #注意: 中文语料文件必须是分词后的文本文件。
@@ -54,6 +56,17 @@ if hash python 2>/dev/null; then
     PYTHON=python
 else
     PYTHON=python3
+fi
+
+# 检查 build 目录和 vocab_count 文件是否存在
+if [ ! -d "$BUILDDIR" ]; then
+    echo "Error: $BUILDDIR directory does not exist."
+    exit 1
+fi
+
+if [ ! -x "$BUILDDIR/vocab_count" ]; then
+    echo "Error: $BUILDDIR/vocab_count executable does not exist or is not executable."
+    exit 1
 fi
 
 echo
