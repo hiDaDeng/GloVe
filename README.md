@@ -4,7 +4,7 @@
 
 [Stanford GloVe](https://nlp.stanford.edu/projects/glove/)（Global Vectors for Word Representation）算法作为一种融合全局统计信息与局部上下文窗口的词嵌入模型，相较于Word2Vec仅依赖局部上下文，GloVe利用全局统计信息，能更精准地反映词频分布特征。例如，在高维词向量（如200D）中，GloVe在词语类比任务中准确率达75%，并在命名实体识别任务中优于其他词嵌入模型。因其高效的语义表征能力，在社会学、管理学等领域展现出广泛的应用价值。 相关词嵌入文献资料可阅读
 
-- [https://textdata.cn/blog/2023-11-03-organization-science-with-word-embeddings/](https://textdata.cn/blog/2023-11-03-organization-science-with-word-embeddings/)
+- [OS2022 | 概念空间 | 词嵌入模型如何为组织科学中的测量和理论提供信息](https://textdata.cn/blog/2023-11-03-organization-science-with-word-embeddings/)
 - [转载|大数据时代下社会科学研究方法的拓展——基于词嵌入技术的文本分析的应用](https://textdata.cn/blog/2022-04-07-word-embeddings-in-social-science/)
 - [词嵌入技术在社会科学领域进行数据挖掘常见39个FAQ汇总](https://textdata.cn/blog/2023-03-15-39faq-about-word-embeddings-for-social-science/)
 - [文献汇总 | 词嵌入 与 社会科学中的偏见(态度)](https://textdata.cn/blog/2022-04-09-literature-about-embeddings/)
